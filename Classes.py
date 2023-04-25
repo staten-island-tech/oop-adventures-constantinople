@@ -1,0 +1,2 @@
+class Sigil_Knight:
+    
