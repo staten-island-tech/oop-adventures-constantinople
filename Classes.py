@@ -1,8 +1,7 @@
 class Base_class:
-    def __init__(self, HP , Weapon , Ability, Money , XP):
-        self.HP = HP
+    def __init__(self, HP , Weapon , Money , XP):
+        self.HP = int(HP)
         self.Weapon = Weapon
-        self.Ability = Ability
-        self.Money = Money
-        self.XP = XP
+        self.Money = int(Money)
+        self.XP = int(XP)
 
