@@ -8,11 +8,16 @@ class Base_class:
     def info(self):
         print(self.HP , self.Weapon , self.Money , self.XP)
 
+
+
+
+
 class Enemy1:
     def __init__(self, HP , XP):
         self.HP = HP
         self.XP = XP
 B = Enemy1(150 , 25 )
+
 
 
 class sigil_Knight(Base_class):
@@ -31,6 +36,7 @@ class sigil_Knight(Base_class):
                 if Remaing_enemy_HP < 0:
                     print('You defeated this enemy')
                     Added_XP = B.XP + A.XP
+                    A.XP = Added_XP
                     print('You now have,' , Added_XP , 'XP')
                     break
                 B.HP = Remaing_enemy_HP
@@ -38,7 +44,7 @@ class sigil_Knight(Base_class):
                 
                 
 
-A = sigil_Knight(100, x, 0 , 0)
+A = sigil_Knight(100, 'x', 0 , 0)
 
 A.Attack()
-
+print(A.XP)
