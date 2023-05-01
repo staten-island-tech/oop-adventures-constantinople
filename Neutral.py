@@ -1,17 +1,6 @@
+import Classes
 import random
-class Base_class:
-    def __init__(self, HP , Weapon , XP):
-        self.HP = int(HP)
-        self.Weapon = Weapon
-        self.XP = int(XP)
-    def info(self):
-        print(self.HP , self.Weapon , self.XP)
-
-class Enemy1:
-    def __init__(self, HP , XP):
-        self.HP = HP
-        self.XP = XP
-
+from Classes import Base_class, Enemy1
 B = Enemy1(160 ,30)
 
 
@@ -25,7 +14,7 @@ class chef(Base_class):
                 break  
             OL = input('Would you like to attack?').upper()
             if OL == 'YES':
-                Number_of_hits = random.randint(0 , 3)
+                Number_of_hits = random.randint(0 , 4)
                 Damage = int(20)
                 Total_DMG = Number_of_hits*Damage
                 Remaing_enemy_HP = B.HP - Total_DMG
@@ -51,7 +40,7 @@ class BlackSmith(Base_class):
                 break  
             OL = input('Would you like to attack?').upper()
             if OL == 'YES':
-                Number_of_hits = random.randint(0 , 5)
+                Number_of_hits = random.randint(0 , 3)
                 Damage = int(25)
                 Total_DMG = Number_of_hits*Damage
                 Remaing_enemy_HP = B.HP - Total_DMG
@@ -67,4 +56,5 @@ class BlackSmith(Base_class):
                 print('You dont attack')
                 break    
 y = BlackSmith(110 , 'hammer' , 0)
-y.Attack()
+
+g.Attack()
