@@ -1,13 +1,15 @@
-def trinket():
-    print("You arrive on the map and must find money to progress. ")
-    question = input("Where would you like to loot? Choose from 'Emerald Cove' 'Sentinel Castle' or 'Deepforest' ")
-    if question == "Emerald Cove":
-        import emerald_cove
-    elif question == "Sentinel Castle":
-        import sentinel_castle
-    elif question == "Deepforest":
-        import deepforest
-trinket()
+
+class trinket():
+    def new():
+        print("You arrive on the map and must find money to progress. ")
+        question = input("Where would you like to loot? Choose from 'Emerald Cove' 'Sentinel Castle' or 'Deepforest' ")
+        if question == "Emerald Cove":
+            import emerald_cove
+        elif question == "Sentinel Castle":
+            import sentinel_castle
+        elif question == "Deepforest":
+            import deepforest
+trinket.new()
 
 class Merchant():
     def __init__(self, crown, ring, goblet, amulet, spell_book, emerald, pearl):
@@ -18,15 +20,49 @@ class Merchant():
         self.spell_book = spell_book
         self.emerald = emerald 
         self.pearl = pearl
+    
     def sell():
-        merchant = Merchant(50, 20, 15, 25, 40, 75, 35)
         print("Hello traveler, I am the traveling merchant and would like to buy your trinkets off of you. ")
+        ask = input("Where did you obtain this loot from? 'Emerald Cove' 'Sentinel Castle' or 'Deepforest' ")
+        if ask == "Emerald Cove":
+            from emerald_cove import inventory1
+            inventory = inventory1
+        elif ask == "Sentinel Castle":
+            from sentinel_castle import inventory2
+            inventory = inventory2
+        elif ask == "Deepforest":
+            from deepforest import inventory3
+            inventory = inventory3
+        merchant = Merchant(50, 20, 15, 25, 40, 75, 35)
         sell = input("Would you like to sell your items? 'Yes' or 'No'. If you select 'No' you will be transported back to your looting area. ")
         if sell == "Yes":
             for crown in inventory:
                 inventory.append(merchant.crown)
-                inventory.remove("crown")
+                inventory.remove("Crown")
                 print(inventory)
-
+            for ring in inventory:
+                inventory.append(merchant.ring)
+                inventory.remove("Ring")
+                print(inventory)
+            for goblet in inventory:
+                inventory.append(merchant.goblet)
+                inventory.remove("Goblet")
+                print(inventory)
+            for emerald in inventory:
+                inventory.append(merchant.emerald)
+                inventory.remove("Emerald")
+                print(inventory)
+            for pearl in inventory:
+                inventory.append(merchant.pearl)
+                inventory.remove("Pearl")
+                print(inventory)
+            for spell_book in inventory:
+                inventory.append(merchant.spell_book)
+                inventory.remove("Spellbook")
+                print(inventory)
+            for amulet in inventory:
+                inventory.append(merchant.amulet)
+                inventory.remove("Amulet")
+                print(inventory)
 Merchant.sell()
 
