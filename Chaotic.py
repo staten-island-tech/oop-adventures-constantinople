@@ -39,7 +39,7 @@ class oni(Base_class):
         while B.HP > 0:
             if B.HP < 0:
                 break  
-            OL = input('Would you like to attack?').upper()
+            OL = input('Damage the enemy?').upper()
             if OL == 'YES':
                 Number_of_hits = random.randint(0 , 8)
                 Damage = int(10)
