@@ -5,10 +5,16 @@ class trinket():
         question = input("Where would you like to loot? Choose from 'Emerald Cove' 'Sentinel Castle' or 'Deepforest' ")
         if question == "Emerald Cove":
             import emerald_cove
+            from emerald_cove import cove_loot
+            cove_loot.loot()
         elif question == "Sentinel Castle":
             import sentinel_castle
+            from sentinel_castle import castle_loot
+            castle_loot.loot()
         elif question == "Deepforest":
             import deepforest
+            from deepforest import deep_loot
+            deep_loot.loot()
 trinket.new()
 
 class Merchant():
@@ -25,12 +31,15 @@ class Merchant():
         print("Hello traveler, I am the traveling merchant and would like to buy your trinkets off of you. ")
         ask = input("Where did you obtain this loot from? 'Emerald Cove' 'Sentinel Castle' or 'Deepforest' ")
         if ask == "Emerald Cove":
+            import emerald_cove
             from emerald_cove import inventory1
             inventory = inventory1
         elif ask == "Sentinel Castle":
+            import sentinel_castle
             from sentinel_castle import inventory2
             inventory = inventory2
         elif ask == "Deepforest":
+            import deepforest
             from deepforest import inventory3
             inventory = inventory3
         merchant = Merchant(50, 20, 15, 25, 40, 75, 35)
