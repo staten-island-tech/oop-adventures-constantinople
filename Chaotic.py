@@ -71,4 +71,4 @@ class replay1():
             if lol != 'YES':
                 print('You dont attack')
                 break
-replay1.replay(op)
+""" replay1.replay(op) """
