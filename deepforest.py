@@ -37,3 +37,4 @@ class deep_loot():
                     break
         else:
             return
+deep_loot.loot()
