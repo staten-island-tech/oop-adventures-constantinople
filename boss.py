@@ -14,12 +14,24 @@ class boss(Base_class):
        damage = int(10)
        Hits = random.randint(1, 3)
        Player_Hit = damage*Hits
+       if Player_Hit ==  int(0):
+            print('You have escaped the Mages attack!')
+            return
        Player_HP = po.HP - Player_Hit
        print('The Arcane Mage has hit you. You are now at ' , Player_HP , 'HP')
-    def Block(self):
-        return
+    def Special_Move(self):
+        damage = int(40)
+        multiplier = random.randint(0,4)
+        Attack = damage*multiplier
+        if Attack ==  int(0):
+            print('You have escaped the Mages attack!')
+            return
+        Player_HP = po.HP - Attack
+        print('You have been hit by the Arcane Mages morri turret.')
+        print('You now have' , Player_HP , 'HP' )
 
 
 
 Arcane = boss(350 , 'Mace of the undead' , 150)
-Arcane.regualr_attack()
+po.Boss_Attack1
+

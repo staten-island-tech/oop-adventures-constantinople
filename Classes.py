@@ -1,4 +1,7 @@
 import random
+import Chaotic
+import boss
+from boss import Arcane
 
 class Base_class:
     def __init__(self, HP , Weapon , XP):
@@ -7,6 +10,17 @@ class Base_class:
         self.XP = int(XP)
     def info(self):
         print(self.HP , self.Weapon , self.XP)
+    def Boss_Attack1(self):
+        damage = int(30)
+        multiplier = random.randint(0,4)
+        total = damage*multiplier
+        Boss_HP = Arcane.HP - total
+        if total > 0:
+            print('You have hit the arcane for' , total , 'HP')
+        elif total == int(0):
+            print('You have failed to hit the Arcane')
+            return
+        
 
 class Enemy1:
     def __init__(self, HP , XP):
@@ -14,15 +28,3 @@ class Enemy1:
         self.XP = XP
 B = Enemy1(160 ,30)
 
-
-class replay1():
-    def replay(x):
-        x.Attack()
-        lol = input('Would you like to go again ').upper()
-        while lol == 'YES':
-            B.HP = 160
-            x.Attack()
-            lol = input('Would you like to go again ').upper()
-            if lol != 'YES':
-                print('You dont attack')
-                break
