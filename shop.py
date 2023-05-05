@@ -40,7 +40,7 @@ class Merchant():
             from deepforest import inventory3
             inventory = inventory3
         print("Hello traveler, I am the traveling merchant and would like to buy your trinkets off of you. ")
-        merchant = Merchant(50, 20, 15, 25, 40, 75, 35)
+    
         sell = input("Would you like to sell your items? 'Yes' or 'No'. If you select 'No' you will be transported back to your looting area. ").upper()
         while sell == "YES":
             if 'Crown' in inventory:
@@ -48,44 +48,45 @@ class Merchant():
                 for crown1 in inventory:
                     inventory.append(merchant.crown)
                     inventory.remove(crown1)
-                    sell = "YES"
+                sell = "YES"
             elif 'Ring' in inventory:
                 ring1 = 'Ring'
                 for ring1 in inventory:
                     inventory.append(merchant.ring)
                     inventory.remove(ring1)
-                    sell = "YES"
+                sell = "YES"
             elif 'Goblet' in inventory:
                 goblet1 = 'Goblet'
                 for goblet1 in inventory:
                     inventory.append(merchant.goblet)
                     inventory.remove(goblet1)
-                    sell = "YES"
+                sell = "YES"
             elif 'Emerald' in inventory:
                 emerald1 = 'Emerald'
                 for emerald1 in inventory:
                     inventory.append(merchant.emerald)
                     inventory.remove(emerald1)
-                    sell = "YES"
+                sell = "YES"
             elif 'Pearl' in inventory:
                 pearl1 = 'Pearl'
                 for pearl1 in inventory:
                     inventory.append(merchant.pearl)
                     inventory.remove(pearl1)
-                    sell = "YES"
+                sell = "YES"
             elif 'Spellbook' in inventory:
                 spellbook1 = 'Spellbook'
                 for spell_book1 in inventory:
                     inventory.append(merchant.spell_book)
                     inventory.remove(spellbook1)
-                    sell = "YES"
+                sell = "YES"
             elif 'Amulet' in inventory:
                 amulet1 = 'Amulet'
                 for amulet1 in inventory:
                     inventory.append(merchant.amulet)
                     inventory.remove(amulet1)
-                    sell = "YES"
+                sell = "YES"
             sell = "No"
         print(inventory)
-Merchant.sell()
 
+merchant = Merchant(50, 20, 15, 25, 40, 75, 35)
+merchant.sell()

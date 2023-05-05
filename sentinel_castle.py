@@ -12,7 +12,7 @@ class castle_loot():
             x = random.choice(trinkets)
             if x in goblet:
                 print("You got a goblet")
-                inventory2.append("Goblet")
+                inventory2.append('Goblet')
                 would2 = input("Would you like to continue looting? ")
                 if would2 == "Yes":
                     would = "Yes"
@@ -21,7 +21,7 @@ class castle_loot():
                     break
             elif x in crown:
                 print("You got a crown")
-                inventory2.append("Crown")
+                inventory2.append('Crown')
                 would2 = input("Would you like to continue looting? ")
                 if would2 == "Yes":
                     would ="Yes"
@@ -30,7 +30,7 @@ class castle_loot():
                     break
             elif x in amulet:
                 print("You got an amulet")
-                inventory2.append("Amulet")
+                inventory2.append('Amulet')
                 would2 = input("Would you like to continue looting? ")
                 if would2 == "Yes":
                     would ="Yes"
@@ -47,3 +47,4 @@ class castle_loot():
                     break
         else:
             return
+
