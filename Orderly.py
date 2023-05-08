@@ -1,7 +1,6 @@
-import Classes
 import random
-from Classes import Base_class, Enemy1
-B = Enemy1(160 ,30)
+import Classes 
+from Classes import Base_class, B
 
 class sigil_Knight(Base_class):
     def __init__(self, HP, Weapon, XP):

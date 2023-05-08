@@ -1,9 +1,6 @@
-import Classes
 import random
-from Classes import Base_class, Enemy1
-
-
-B = Enemy1(160 ,30)
+import Classes 
+from Classes import Base_class, B
 
 
 class Faceless(Base_class):
@@ -59,16 +56,3 @@ class oni(Base_class):
                 break    
 
 op = oni(115 , 'something' , 0)
-
-class replay1():
-    def replay(x):
-        x.Attack()
-        lol = input('Would you like to go again ').upper()
-        while lol == 'YES':
-            B.HP = 160
-            x.Attack()
-            lol = input('Would you like to go again ').upper()
-            if lol != 'YES':
-                print('You dont attack')
-                break
-""" replay1.replay(op) """
