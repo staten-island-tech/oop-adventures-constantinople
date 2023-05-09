@@ -29,13 +29,15 @@ B = Enemy1(160 ,30)
 
 class replay1():
     def replay(x):
-        x.Attack()
-        lol = input('Would you like to go again ').upper()
-        while lol == 'YES':
-            B.HP = 160
+       l = input('Would you like to fight ').upper()
+       if l == 'YES':
             x.Attack()
-            lol = input('Would you like to go again ').upper()
-            if lol != 'YES':
-                print('You dont attack')
-                break
-""" replay1.replay(op) """
+            lol = input('Would you like to attack again? ').upper()
+            while lol == 'YES':
+                B.HP = 160
+                x.Attack()
+                lol = input('Would you like to go again ').upper()
+                if lol != 'YES':
+                    print('You dont attack')
+                    break
+

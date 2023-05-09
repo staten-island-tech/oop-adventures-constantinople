@@ -16,7 +16,7 @@ class Faceless(Base_class):
                 Damage = int(30)
                 Total_DMG = Number_of_hits*Damage
                 Remaing_enemy_HP = B.HP - Total_DMG
-                if Remaing_enemy_HP < 0:
+                if Remaing_enemy_HP < 0 or Remaing_enemy_HP == 0:
                     print('You defeated this enemy')
                     Added_XP = B.XP + po.XP
                     po.XP = Added_XP
@@ -43,7 +43,7 @@ class oni(Base_class):
                 Damage = int(10)
                 Total_DMG = Number_of_hits*Damage
                 Remaing_enemy_HP = B.HP - Total_DMG
-                if Remaing_enemy_HP < 0:
+                if Remaing_enemy_HP < 0 or Remaing_enemy_HP == 0:
                     print('You defeated this enemy')
                     Added_XP = B.XP + op.XP
                     op.XP = Added_XP

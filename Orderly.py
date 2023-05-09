@@ -15,7 +15,7 @@ class sigil_Knight(Base_class):
                 Damage = int(25)
                 Total_DMG = Number_of_hits*Damage
                 Remaing_enemy_HP = B.HP - Total_DMG
-                if Remaing_enemy_HP < 0:
+                if Remaing_enemy_HP < 0 or Remaing_enemy_HP == 0:
                     print('You defeated this enemy')
                     Added_XP = B.XP + A.XP
                     A.XP = Added_XP
@@ -40,7 +40,7 @@ class Whisperer(Base_class):
                 Damage = int(15)
                 Total_DMG = Number_of_hits*Damage
                 Remaing_enemy_HP = B.HP - Total_DMG
-                if Remaing_enemy_HP < 0:
+                if Remaing_enemy_HP < 0 or Remaing_enemy_HP == 0:
                     print('You defeated this enemy')
                     Added_XP = B.XP + A.XP
                     A.XP = Added_XP

@@ -17,7 +17,7 @@ class chef(Base_class):
                 Damage = int(20)
                 Total_DMG = Number_of_hits*Damage
                 Remaing_enemy_HP = B.HP - Total_DMG
-                if Remaing_enemy_HP < 0:
+                if Remaing_enemy_HP < 0 or Remaing_enemy_HP == 0:
                     print('You defeated this enemy')
                     Added_XP = B.XP + g.XP
                     g.XP = Added_XP
@@ -43,7 +43,7 @@ class BlackSmith(Base_class):
                 Damage = int(25)
                 Total_DMG = Number_of_hits*Damage
                 Remaing_enemy_HP = B.HP - Total_DMG
-                if Remaing_enemy_HP < 0:
+                if Remaing_enemy_HP < 0 or Remaing_enemy_HP == 0:
                     print('You defeated this enemy')
                     Added_XP = B.XP + y.XP
                     y.XP = Added_XP
