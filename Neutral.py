@@ -56,4 +56,3 @@ class BlackSmith(Base_class):
                 break    
 y = BlackSmith(110 , 'hammer' , 0)
 
-g.Attack()
