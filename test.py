@@ -1,3 +1,5 @@
+
+
 import random
 import Classes 
 from Classes import *
@@ -16,8 +18,9 @@ from level import *
 Arcane.Special_Move(po)
  """
 """ if you want to acces anything import it in and acces it all or whatever you need such as example above """
-
 user = po
 user.xp = int(60)
+
+
 TEST = level()
 TEST.level_print()

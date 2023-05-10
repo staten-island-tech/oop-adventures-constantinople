@@ -1,17 +1,22 @@
+level = int(40)
+current_level = ''
+
 class level:
     def __init__(self) -> None:
         pass
     def level_print(self):
-        level = user.xp
-        if level >=0 or level <=50:
-            current_level = 'Tier_1'
-        if level >=51 or level <=100:
+        global current_level 
+        if level == range(0,51):
+            current_level ='Tier 1'       
+        elif level == range(51,101):
             current_level = 'Tier_2'
-        if level >=101 or level <=200:
+        elif level == range(101,251):
             current_level = 'Tier_3'
-        if level >=201 or level <=400:
+        elif level == range(251,351):
             current_level = 'Tier_4'
-        if level >=401 or level <=1000000:
+        elif level == range(351,1000000):
             current_level = 'Tier_5'
         print(current_level)
-        
+ 
+TEST = level()
+TEST.level_print()
