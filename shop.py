@@ -1,3 +1,4 @@
+silver = []
 class question():
     one = input("You arrive on the map and must loot to find money. Where would you like to loot? Choose from 'Emerald Cove' 'Sentinel Castle' or 'Deepforest' ").upper()
 question.one
@@ -40,29 +41,43 @@ class Merchant():
         spell_book = {'name': 'Spellbook', 'price': 40, 'chance':[3,4,5,6]}
         emerald = {'name': 'Emerald', 'price': 75, 'chance':[7,7.5]}
         sell = input("Would you like to sell your items? 'Yes' or 'No'. If you select 'No' you will be transported back to your looting area. ")
+        money = 0
         if sell == "Yes":
-            for crown['name'] in inventory:
-                inventory.append(crown['price'])
-                inventory.remove(crown['name'])
-            for ring['name'] in inventory:
-                inventory.append(ring['price'])
-                inventory.remove(ring['name'])
-            for goblet['name'] in inventory:
-                inventory.append(goblet['price'])
-                inventory.remove(goblet['name'])
-            for emerald['name'] in inventory:
-                inventory.append(emerald['price'])
-                inventory.remove(emerald['name'])
-            for pearl['name'] in inventory:
-                inventory.append(pearl['price'])
-                inventory.remove(pearl['name'])
-            for spell_book['name'] in inventory:
-                inventory.append(spell_book['price'])
-                inventory.remove(spell_book['name'])
-            for amulet['name'] in inventory:
-                inventory.append(amulet['price'])
-                inventory.remove(amulet['name'])
-            print(inventory)
+                while ring['name'] in inventory:
+                    money = money + ring['price']
+                    inventory.remove(ring['name'])
+                    sell == "Yes"
+                while goblet['name'] in inventory:
+                    money = money + goblet['price']
+                    inventory.remove(goblet['name'])
+                    sell == "Yes"
+                while emerald['name'] in inventory:
+                    money = money + emerald['price']
+                    inventory.remove(emerald['name'])
+                    sell == "Yes"
+                while pearl['name'] in inventory:
+                    money = money + pearl['price']
+                    inventory.remove(pearl['name'])
+                    sell == "Yes"
+                while spell_book['name'] in inventory:
+                    money = money + spell_book['price']
+                    inventory.remove(spell_book['name'])
+                    sell == "Yes"
+                while crown['name'] in inventory:
+                    money = money + crown['price']
+                    inventory.remove(crown['name'])
+                    sell == "Yes"
+                while amulet['name'] in inventory:
+                    money = money + amulet['price']
+                    inventory.remove(amulet['name'])
+                    sell == "Yes"
+                while goblet['name'] in inventory:
+                    money = money + goblet['price']
+                    inventory.remove(goblet['name'])
+                    sell == "Yes"
+                print(f"You have {money} silver. ")
+                silver.append(money)
+
 Merchant.sell()
 
 
