@@ -19,8 +19,8 @@ Arcane.Special_Move(po)
  """
 """ if you want to acces anything import it in and acces it all or whatever you need such as example above """
 user = po
-user.xp = int(60)
+F = user.XP
 
 
 TEST = level()
-TEST.level_print()
+TEST.level_print(F)
