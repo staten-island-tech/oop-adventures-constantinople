@@ -18,7 +18,22 @@ class Base_class:
         elif total == int(0):
             print('You have failed to hit the Arcane')
             return
-        
+    def level_print(self):
+        if self.XP  >= 0 and self.XP <= 100:
+            tag = 'Tier_1'
+            print(tag)
+        elif self.XP  >= 101 and self.XP <= 200:
+            tag = 'Tier_2'
+            print(tag)
+        elif self.XP >= 201 and self.XP <= 300:
+            tag = 'Tier_3'
+            print(tag)
+        elif self.XP >= 301 and self.XP <= 500:
+            tag = 'Tier_4'
+            print(tag)
+        elif self.XP >= 501 and self.XP <= 100000:
+            tag = 'Tier_5'
+            print(tag)    
 
 class Enemy1:
     def __init__(self, HP , XP):
