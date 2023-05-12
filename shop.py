@@ -40,9 +40,9 @@ class Merchant():
         pearl = {'name': 'Pearl', 'price': 25, 'chance':[1,2,2.5]}
         spell_book = {'name': 'Spellbook', 'price': 40, 'chance':[3,4,5,6]}
         emerald = {'name': 'Emerald', 'price': 75, 'chance':[7,7.5]}
-        sell = input("Would you like to sell your items? 'Yes' or 'No'. If you select 'No' you will be transported back to your looting area. ")
+        sell = input("Would you like to sell your items? 'Yes' or 'No'. If you select 'No' you will be transported back to your looting area. ").upper()
         money = 0
-        if sell == "Yes":
+        if sell == "YES":
                 while ring['name'] in inventory:
                     money = money + ring['price']
                     inventory.remove(ring['name'])
@@ -77,7 +77,9 @@ class Merchant():
                     sell == "Yes"
                 print(f"You have {money} silver. ")
                 silver.append(money)
-
+        else:
+            trinket.new()
+            Merchant.sell()
 Merchant.sell()
 
 
