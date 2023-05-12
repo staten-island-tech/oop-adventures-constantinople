@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 import random
@@ -32,3 +33,10 @@ if po.level_print == 'Tier_5':
     print('Checpoint_True')
 elif po.level_print != 'Tier_5':
     print('Your not high level')
+=======
+class Loot:
+    def __init__(self, trinkets):
+        self.trinkets = trinkets
+    def __str__(self):
+        return f'{self.trinkets}'
+>>>>>>> 0590fe64d541d7be6905b19d210ef025b9c2427e
