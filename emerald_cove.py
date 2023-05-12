@@ -7,45 +7,46 @@ class cove_loot():
         spell_book = {'name': 'Spellbook', 'price': 40, 'chance':[3,4,5,6]}
         emerald = {'name': 'Emerald', 'price': 75, 'chance':[7,7.5]}
         nothing = {'chance':[8,9,10]}
-        would = input("Would you like to start looting? 'Yes' or 'No' ")
-        while would == "Yes":
+        would = input("Would you like to start looting? 'Yes' or 'No' ").upper()
+        while would == "YES":
             x = random.choice(trinkets)
             if x in pearl['chance']:
                 print("You got a pearl")
                 inventory1.append('Pearl')
-                would2 = input("Would you like to continue looting? ")
-                if would2 == "Yes":
-                    would = "Yes"
+                would2 = input("Would you like to continue looting? ").upper()
+                if would2 == "YES":
+                    would = "YES"
                 else:
                     print(f"Here is your inventory : {inventory1}")
                     break
             elif x in spell_book['chance']:
                 print("You got a spellbook")
                 inventory1.append('Spellbook')
-                would2 = input("Would you like to continue looting? ")
-                if would2 == "Yes":
-                    would ="Yes"
+                would2 = input("Would you like to continue looting? ").upper()
+                if would2 == "YES":
+                    would ="YES"
                 else:
                     print(f"Here is your inventory : {inventory1}")
                     break
             elif x in emerald['chance']:
                 print("You got an emerald")
                 inventory1.append('Emerald')
-                would2 = input("Would you like to continue looting? ")
-                if would2 == "Yes":
-                    would = "Yes"
+                would2 = input("Would you like to continue looting? ").upper()
+                if would2 == "YES":
+                    would = "YES"
                 else:
                     print(f"Here is your inventory : {inventory1}")
                     break
             elif x in nothing['chance']:
                 print("You got nothing")
-                would2 = input("Would you like to continue looting? ")
-                if would2 == "Yes":
-                    would = "Yes"
+                would2 = input("Would you like to continue looting? ").upper()
+                if would2 == "YES":
+                    would = "YES"
                 else:
                     print(f"Here is your inventory : {inventory1}")
                     break
         else:
-            return
+            print("You MUST loot to coninue... ")
+            cove_loot.loot()
 
 
