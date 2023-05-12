@@ -1,0 +1,267 @@
+<mxfile host="app.diagrams.net" modified="2023-04-25T14:52:34.257Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="tX6I_UkwoftkXoh7FJ9H" version="21.2.1" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1830" dy="1004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="You are transported into the world of Python Rogue-Like Adventure." style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="150" y="70" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gE25xzaNOcveznmByc2P-2" target="gE25xzaNOcveznmByc2P-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-2" value="Chaotic" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gE25xzaNOcveznmByc2P-3" target="gE25xzaNOcveznmByc2P-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gE25xzaNOcveznmByc2P-3" target="gE25xzaNOcveznmByc2P-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gE25xzaNOcveznmByc2P-3" target="gE25xzaNOcveznmByc2P-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-3" value="Would you like to become Orderly, Neutral, or Chaotic" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="165" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gE25xzaNOcveznmByc2P-5" target="gE25xzaNOcveznmByc2P-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-5" value="Orderly" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gE25xzaNOcveznmByc2P-6" target="gE25xzaNOcveznmByc2P-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-6" value="Neutral" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gE25xzaNOcveznmByc2P-10" target="gE25xzaNOcveznmByc2P-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-10" value="Orderly classes file opened/accessed," style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="30" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gE25xzaNOcveznmByc2P-11" target="gE25xzaNOcveznmByc2P-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-11" value="Chaotic classes file opened/accessed," style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gE25xzaNOcveznmByc2P-12" target="gE25xzaNOcveznmByc2P-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-12" value="Neutral classes file opened/accessed," style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="190" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="390" as="sourcePoint" />
+            <mxPoint x="440" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-18" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="390" as="sourcePoint" />
+            <mxPoint x="440" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.113;entryY=0.35;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gE25xzaNOcveznmByc2P-19" target="gE25xzaNOcveznmByc2P-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.138;entryY=0.388;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gE25xzaNOcveznmByc2P-19" target="gE25xzaNOcveznmByc2P-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.838;entryY=0.313;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gE25xzaNOcveznmByc2P-19" target="gE25xzaNOcveznmByc2P-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-19" value="What class would you like to progress towards?" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="150" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-20" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="380" as="sourcePoint" />
+            <mxPoint x="440" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="380" as="sourcePoint" />
+            <mxPoint x="440" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="380" as="sourcePoint" />
+            <mxPoint x="440" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gE25xzaNOcveznmByc2P-27" target="gE25xzaNOcveznmByc2P-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-27" value="if statement check to make sure user access the correct classes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="525" width="90" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-29" value="Sigil Knight" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="620" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gE25xzaNOcveznmByc2P-34" target="gE25xzaNOcveznmByc2P-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-34" value="Whisperer" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="85" y="615" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-35" value="Chef" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="210" y="620" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gE25xzaNOcveznmByc2P-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-36" value="Blacksmith" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="620" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.675;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gE25xzaNOcveznmByc2P-38" target="gE25xzaNOcveznmByc2P-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-38" value="Faceless" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="620" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-39" value="Oni" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="620" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-46" value="You arrive on the map and must find trinkets to earn money." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gE25xzaNOcveznmByc2P-50" target="gE25xzaNOcveznmByc2P-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gE25xzaNOcveznmByc2P-50" target="gE25xzaNOcveznmByc2P-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gE25xzaNOcveznmByc2P-50" target="gE25xzaNOcveznmByc2P-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-50" value="You arrive on the map and must find trinkets to earn money. Where would you like to loot?" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="215" y="740" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gE25xzaNOcveznmByc2P-51" target="gE25xzaNOcveznmByc2P-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-51" value="Emerald Cove" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="860" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gE25xzaNOcveznmByc2P-52" target="gE25xzaNOcveznmByc2P-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-52" value="Deepforest" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="850" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.413;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gE25xzaNOcveznmByc2P-53" target="gE25xzaNOcveznmByc2P-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-53" value="Sentinel Castle" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="250" y="860" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gE25xzaNOcveznmByc2P-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-57" value="Deepforest function opens that has a 25% chance to get a ring, 50% chance to get a goblet, and 25% chance to get nothing." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="45" y="960" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gE25xzaNOcveznmByc2P-60" target="gE25xzaNOcveznmByc2P-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-60" value="Sentinel function opens that has a 25% chance to get a crown, 25% chance to get a goblet, 25% chance to get an amulet, and 25% chance to get nothing." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="960" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gE25xzaNOcveznmByc2P-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-61" value="Emerald Cove function opens that has a 25% chance to get a pearl, 15% chance to get an emerald, 20% chance to get a spellbook, and 40% chance to get nothing." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="415" y="970" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gE25xzaNOcveznmByc2P-64" target="gE25xzaNOcveznmByc2P-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-64" value="When the user answers &quot;no&quot; to continue searching, they are transported to a merchant to sell their items." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="245" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gE25xzaNOcveznmByc2P-71" target="gE25xzaNOcveznmByc2P-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-71" value="User buys weapon relative to their class. They are capable of buying more upgraded weapons of their class depending on how much silver they have." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="1180" width="155" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gE25xzaNOcveznmByc2P-73" target="gE25xzaNOcveznmByc2P-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-73" value="User has option to return to previous locations to get more money or go forward" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="275" y="1320" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gE25xzaNOcveznmByc2P-75" target="gE25xzaNOcveznmByc2P-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gE25xzaNOcveznmByc2P-75" target="gE25xzaNOcveznmByc2P-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-75" value="User is transported to zscroom pit to kill zombie scrooms to get exp." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="1490" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.411;entryY=0.104;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gE25xzaNOcveznmByc2P-79" target="gE25xzaNOcveznmByc2P-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="1560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-79" value="Each zombie scroom gives 50 xp," style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130.0039130434785" y="1460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gE25xzaNOcveznmByc2P-81" target="gE25xzaNOcveznmByc2P-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="1570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-81" value="Each class would need a different amount of xp to level up in their field" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="460" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gE25xzaNOcveznmByc2P-86" target="gE25xzaNOcveznmByc2P-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-86" value="User has option to return to previous locations to get more money or go forward" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="285" y="1600" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.012;entryY=0.35;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gE25xzaNOcveznmByc2P-87" target="gE25xzaNOcveznmByc2P-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-87" value="User is transported to final boss location (necromancer hideout) and must fight the Arcane Mage to finish the game." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="1790" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-90" value="Each class has a different amount of damage. They can either attack, block, or use their special move. The Arcane Mage has 300 hp, and can fight back. User has 100 hp. If the user dies, they are transported back to the beginning of the fight." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="450" y="1770" width="185" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-93" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="gE25xzaNOcveznmByc2P-94">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="635" y="1830" as="sourcePoint" />
+            <mxPoint x="685" y="1780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gE25xzaNOcveznmByc2P-94" value="If Arcane mage is defeated, a &quot;you win&quot; message will appear." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="670" y="1700" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
