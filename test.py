@@ -20,5 +20,8 @@ Arcane.Special_Move(po)
 
 
 po.info()
-po.XP = int(250)
+print('Your Current level is:')
+po.level_print()
+replay1.replay(po)
+print('Your Current level is:')
 po.level_print()
