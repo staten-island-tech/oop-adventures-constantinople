@@ -25,3 +25,10 @@ po.level_print()
 replay1.replay(po)
 print('Your Current level is:')
 po.level_print()
+
+""" make it so that you need tier 5 to fight the boss otherwise you cant """
+
+if po.level_print == 'Tier_5':
+    print('Checpoint_True')
+elif po.level_print != 'Tier_5':
+    print('Your not high level')
