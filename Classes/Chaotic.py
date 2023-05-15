@@ -1,6 +1,6 @@
 import random
-import Classes 
-from Classes import Base_class, B
+import base_file
+from base_file import Base_class, B
 
 
 class Faceless(Base_class):
