@@ -3,11 +3,11 @@ class start:
         print("You have now been transported into the world of an ancient lineage. ")
         everything = input("Would you like to become an orderly, neutral, or chaotic class?").upper()
         if everything == "ORDERLY":
-            import 
+            import Orderly
         elif everything == "CHAOTIC":
-            import 
+            import Chaotic
         elif everything == "NEUTRAL":
-            import 
+            import Neutral
         else:
             print("Iagnime not bineg albe to selpl...")
             start.beginning()
