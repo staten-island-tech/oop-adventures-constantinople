@@ -75,7 +75,7 @@ class Merchant():
                     money = money + goblet['price']
                     inventory.remove(goblet['name'])
                     sell == "Yes"
-                print(f"You have {money} silver. ")
+                print(f"You have {money} silver. You make your way back to the town you started at.")
                 silver.append(money)
         else:
             trinket.new()

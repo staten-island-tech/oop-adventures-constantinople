@@ -44,9 +44,20 @@ class start:
         else:
             print("Iagnime not bineg albe to selpl...")
             start.beginning()
-        Warning = print("You must buy these weapons later.")
-        Warning
 start.beginning()
 import shop
+from shop import *
+class weaponsmith():
+    def weapon():
+        colorado = input("Would you like to go to the shop?" ).upper()
+        if colorado == "YES":
+            lol = input("Hello traveler, I am the weaponsmith of this town and have some lovely options for you. Would you like to see?").upper()
+            if lol == "YES":
+                print("bruh")
+            else:
+                weaponsmith.weapon()
+        else:
+            print("YOU MUST GO TO THE SHOP TO CONINTUEEEEEE")
+            weaponsmith.weapon()
 
-
+weaponsmith.weapon()
