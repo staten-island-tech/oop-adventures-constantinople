@@ -47,5 +47,6 @@ class start:
         Warning = print("You must buy these weapons later.")
         Warning
 start.beginning()
+import shop
 
 
