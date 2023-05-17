@@ -1,4 +1,4 @@
-silver = []
+silver = int(0)
 class question():
     one = input("You arrive on the map and must loot to find money. Where would you like to loot? Choose from 'Emerald Cove' 'Sentinel Castle' or 'Deepforest' ").upper()
 question.one
@@ -76,7 +76,7 @@ class Merchant():
                     inventory.remove(goblet['name'])
                     sell == "Yes"
                 print(f"You have {money} silver. You make your way back to the town you started at.")
-                silver.append(money)
+                silver + money
         else:
             trinket.new()
             Merchant.sell()

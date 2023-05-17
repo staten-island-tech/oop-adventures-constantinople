@@ -53,6 +53,10 @@ class we():
         if A in user_class:
             print("Hmmmm... Very interesting.... Your class is capable of purchasing a bronze, silver, or mythril sword. ")
             which = input("Which one would you like? 'bronze' 'silver' or 'mythril' ").upper()
+            if which == "BRONZE":
+                from shop import silver
+                new = silver - 15
+                print(new)
         elif C in user_class:
             print("Hmmmm... Very interesting.... Your class is capable of purchasing a bronze dagger, silver dagger or mythril dagger. ")
             which = input("Which one would you like? 'bronze' 'silver' or 'mythril' ").upper()
