@@ -54,11 +54,19 @@ class we():
             print("Hmmmm... Very interesting.... Your class is capable of purchasing a bronze, silver, or mythril sword. ")
             which = input("Which one would you like? 'bronze' 'silver' or 'mythril' ").upper()
         elif C in user_class:
-            print("Hmmmm... Very interesting.... Your class is capable of purchasing a bronze dagger, silver ")
+            print("Hmmmm... Very interesting.... Your class is capable of purchasing a bronze dagger, silver dagger or mythril dagger. ")
             which = input("Which one would you like? 'bronze' 'silver' or 'mythril' ").upper()
         elif op in user_class:
             print("Ah HA, I have nothing in store for you, except for A CESTUS. ")
             which = input("Would you like to purchase it? ")
+        elif po in user_class:
+            print("AHHH!! Your face, ITS GONE! BUY YOUR WEAPON AND GET OUTTT! -- He presents three daggers to you -- ")
+            which = input("Which dagger would you like to buy? 'bronze' 'silver' or 'mythril'? ")
+        elif g in user_class:
+            print("Ahh, a lovely chef. After you finish you should make me some food sometime. ")
+            which = input("What would you like to buy? 'bronze_pan' 'silver_pan' or 'mythril_pan'? ")
+        elif y in user_class:
+            print("A blacksmith? Just like me! Here, take this hammer free of charge!! ")
 
 class weaponsmith():
     def weapon():
