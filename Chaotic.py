@@ -1,18 +1,15 @@
-<<<<<<< HEAD
 import random
 import base_file
 from base_file import Base_class, B
 
 
 
-=======
 class Base_class:
     def __init__(self, HP , Weapon , Money , XP):
         self.HP = HP
         self.Weapon = Weapon
         self.Money = int(Money)
         self.XP = int(XP)
->>>>>>> 5fe998b6f23fc1467866454b3576706a3f458a96
 
 class Oni(Base_class):
     def __init__(self, HP, Weapon, Money, kills,):
@@ -21,7 +18,6 @@ class Oni(Base_class):
     
 
 class Faceless(Base_class):
-<<<<<<< HEAD
     def __init__(self, HP, Weapon, XP):
         super().__init__(HP, Weapon, XP)
     def Attack(self,x,y):
@@ -77,9 +73,7 @@ class oni(Base_class):
 
 
 op = oni(115 , 'something' , 0)
-=======
     def __init__(self, HP, Weapon, Money, kills):
         super().__init__(HP, Weapon, Money)
         self.kills = int(kills)
 Mathew = Oni(100,"Sword",1000,1)
->>>>>>> 5fe998b6f23fc1467866454b3576706a3f458a96
