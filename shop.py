@@ -76,11 +76,14 @@ class Merchant():
                     inventory.remove(goblet['name'])
                     sell == "Yes"
                 print(f"You have {money} silver. You make your way back to the town you started at.")
-                silver + money
+                global silver
+                silver = int(money)
+                
         else:
             trinket.new()
             Merchant.sell()
 Merchant.sell()
+
 
 
 
