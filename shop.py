@@ -77,7 +77,7 @@ class Merchant():
                     sell == "Yes"
                 print(f"You have {money} silver. You make your way back to the town you started at.")
                 global silver
-                silver = int(money)
+                silver = silver + int(money)
                 
         else:
             trinket.new()
