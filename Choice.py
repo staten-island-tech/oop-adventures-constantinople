@@ -50,7 +50,7 @@ class start:
 start.beginning()
 import shop
 from shop import *
-from shop import silver
+
 class not_enough_money:
     def bruh():
         print("You must go loot to get more silver to afford this item. ")
