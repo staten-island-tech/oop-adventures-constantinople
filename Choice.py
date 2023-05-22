@@ -4,8 +4,10 @@ import Chaotic
 from Chaotic import *
 import Neutral
 from Neutral import *
-user_class = []
-user_weapon = []
+import weapons
+from weapons import *
+user_class = None
+user_weapon = None
 
 class start:
     def beginning():
@@ -15,10 +17,12 @@ class start:
             class1 = input("What class would you like to progress in?: 'Sigil Knight' or 'Whisperer' ").upper()
             if class1 == "SIGIL KNIGHT": 
                 print("You are a Sigil Knight, a humble warrior of Solan. ")
-                user_class.append(A)
+                global user_class
+                user_class = A
             elif class1 == "WHISPERER":
                 print("You are a Whisperer, a wisdom possessing child of the mother. ")
-                user_class.append(C)
+                global user_class
+                user_class = C
             else:
                 print("Iagnime not bineg albe to selpl...")
                 start.beginning()
@@ -26,10 +30,12 @@ class start:
             class2 = input("What class would you like to progress in?: 'Oni' or 'Faceless' ").upper()
             if class2 == "ONI":
                 print("You are an Oni, a humble servant of Big Hoss. ")
-                user_class.append(op)
+                global user_class
+                user_class = op
             elif class2 == "FACELESS":
                 print("You are a Facelss, a catestrophic apprentice of the snowman. ")
-                user_class.append(po)
+                global user_class
+                user_class = po
             else:
                 print("Iagnime not bineg albe to selpl...")
                 start.beginning()
@@ -37,10 +43,12 @@ class start:
             class3 = input("What class would you like to progress in?: 'Chef' or 'Blacksmith' ").upper()
             if class3 == "CHEF":
                 print("You are a Chef, a skilled cook of Sentinel. ")
-                user_class.append(g)
+                global user_class
+                user_class = g
             elif class3 == "BLACKSMITH":
                 print("You are a Blacksmith, a skilled craftsman of Castle Sanctuary. ")
-                user_class.append(y)
+                global user_class
+                user_class = y
             else:
                 print("Iagnime not bineg albe to selpl..." )
                 start.beginning()
@@ -67,14 +75,16 @@ class we():
                 if new < 0:
                     not_enough_money.bruh()
                 else:
-                    user_class.append("bronze_sword")
+                    global user_weapon
+                    user_weapon = bronze_sword
                     print(f"You have {new} silver left." )
             elif which == "SILVER":
                 new = silver - 300
                 if new < 0:
                     not_enough_money.bruh()
                 else:
-                    user_class.append("silver_sword")
+                    global user_weapon
+                    user_weapon = silver_sword
                     print(f"You have {new} silver left." )
             elif which == "MYTHRIL":
                 new = silver - 450

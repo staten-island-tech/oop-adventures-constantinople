@@ -1,7 +1,10 @@
-pol = input('test').upper()
-if  pol == 'SILVER_HAMMER':
-    po.Weapon = silver_Hammer
-po.Attack(B,po.Weapon)
+import Choice
+from Choice import user_weapon , user_class
+import Chaotic
+from Chaotic import po
+
+
+user_class = po
 
 
 bronze_sword = int(9)
@@ -20,3 +23,10 @@ mythril_Pan = int(12)
 bronze_Hammer = int(8) 
 silver_Hammer = int(10)
 mythril_Hammer = int(13)
+
+""" for weapon in user_weapon:
+    if weapon == ' bronze_sword': """
+user_class.Weapon = bronze_sword
+
+
+po.Attack(B , user_class.Weapon)
