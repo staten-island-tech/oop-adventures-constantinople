@@ -71,27 +71,40 @@ class we():
             print("Hmmmm... Very interesting.... Your class is capable of purchasing a bronze, silver, or mythril sword. ")
             which = input("Which one would you like? 'bronze -> 180' 'silver -> 300' or 'mythril -> 450' ").upper()
             if which == "BRONZE":
+<<<<<<< HEAD
                 new = silver - 180
                 if new < 0:
                     not_enough_money.bruh()
                 else:
                     global user_weapon
                     user_weapon = bronze_sword
+=======
+                new = silver
+                if new >= 180:
+                    new = new - 180
+                    user_weapon.append("bronze_sword")
+>>>>>>> 5fcbe145fe7f26c76d1e7453314503f833b50b64
                     print(f"You have {new} silver left." )
+                else:
+                    not_enough_money.bruh()
             elif which == "SILVER":
                 new = silver - 300
                 if new < 0:
                     not_enough_money.bruh()
                 else:
+<<<<<<< HEAD
                     global user_weapon
                     user_weapon = silver_sword
+=======
+                    user_weapon.append("silver_sword")
+>>>>>>> 5fcbe145fe7f26c76d1e7453314503f833b50b64
                     print(f"You have {new} silver left." )
             elif which == "MYTHRIL":
                 new = silver - 450
                 if new < 0:
                     not_enough_money.bruh()
                 else:
-                    user_class.append("mythril_sword")
+                    user_weapon.append("mythril_sword")
                     print(f"You have {new} silver left." )
             else:
                 print("Iagnime not bineg albe to selpl..." )
@@ -104,21 +117,21 @@ class we():
                 if new < 0:
                     not_enough_money.bruh()
                 else:
-                    user_class.append("bronze_dagger")
+                    user_weapon.append("bronze_dagger")
                     print(f"You have {new} silver left." )
             elif which == "SILVER":
                 new = silver - 200
                 if new < 0:
                     not_enough_money.bruh()
                 else:
-                    user_class.append("silver_dagger")
+                    user_weapon.append("silver_dagger")
                     print(f"You have {new} silver left." )
             elif which == "RAPIER":
                 new = silver - 575
                 if new < 0:
                     not_enough_money.bruh()
                 else:
-                    user_class.append("rapier")
+                    user_weapon.append("rapier")
                     print(f"You have {new} silver left." )
             else:
                 print("Iagnime not bineg albe to selpl..." )
@@ -131,7 +144,7 @@ class we():
                 if new < 0:
                     not_enough_money.bruh()
                 else:
-                    user_class.append("cestus")
+                    user_weapon.append("cestus")
                     print(f"You have {new} silver left." )
             else:
                 print("Iagnime not bineg albe to selpl..." )
@@ -144,21 +157,21 @@ class we():
                 if new < 0:
                     not_enough_money.bruh()
                 else:
-                    user_class.append("bronze_dagger")
+                    user_weapon.append("bronze_dagger")
                     print(f"You have {new} silver left." )
             elif which == "SILVER":
                 new = silver - 200
                 if new < 0:
                     not_enough_money.bruh()
                 else:
-                    user_class.append("silver_dagger")
+                    user_weapon.append("silver_dagger")
                     print(f"You have {new} silver left." )
             elif which == "MYTHRIL":
                 new = silver - 300
                 if new < 0:
                     not_enough_money.bruh()
                 else:
-                    user_class.append("mythril_dagger")
+                    user_weapon.append("mythril_dagger")
                     print(f"You have {new} silver left." )
             else:
                 print("Iagnime not bineg albe to selpl..." )
@@ -171,21 +184,21 @@ class we():
                 if new < 0:
                     not_enough_money.bruh()
                 else:
-                    user_class.append("bronze_pan")
+                    user_weapon.append("bronze_pan")
                     print(f"You have {new} silver left." )
             elif which == "SILVER_PAN":
                 new = silver - 175
                 if new < 0:
                     not_enough_money.bruh()
                 else:
-                    user_class.append("silver_pan")
+                    user_weapon.append("silver_pan")
                     print(f"You have {new} silver left." )
             elif which == "MYTHRIL_PAN":
                 new = silver - 275
                 if new < 0:
                     not_enough_money.bruh()
                 else:
-                    user_class.append("mythril_pan")
+                    user_weapon.append("mythril_pan")
                     print(f"You have {new} silver left." )
             else:
                 print("Iagnime not bineg albe to selpl..." )
