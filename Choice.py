@@ -9,6 +9,8 @@ from weapons import *
 user_class = None
 user_weapon = None
 
+
+"""this means it works"""
 class start:
     def beginning():
         print("You have now been transported into the world of an ancient lineage. ")
@@ -71,19 +73,16 @@ class we():
             print("Hmmmm... Very interesting.... Your class is capable of purchasing a bronze, silver, or mythril sword. ")
             which = input("Which one would you like? 'bronze -> 180' 'silver -> 300' or 'mythril -> 450' ").upper()
             if which == "BRONZE":
-<<<<<<< HEAD
                 new = silver - 180
                 if new < 0:
                     not_enough_money.bruh()
                 else:
                     global user_weapon
                     user_weapon = bronze_sword
-=======
                 new = silver
                 if new >= 180:
                     new = new - 180
                     user_weapon.append("bronze_sword")
->>>>>>> 5fcbe145fe7f26c76d1e7453314503f833b50b64
                     print(f"You have {new} silver left." )
                 else:
                     not_enough_money.bruh()
@@ -92,12 +91,9 @@ class we():
                 if new < 0:
                     not_enough_money.bruh()
                 else:
-<<<<<<< HEAD
                     global user_weapon
                     user_weapon = silver_sword
-=======
                     user_weapon.append("silver_sword")
->>>>>>> 5fcbe145fe7f26c76d1e7453314503f833b50b64
                     print(f"You have {new} silver left." )
             elif which == "MYTHRIL":
                 new = silver - 450
