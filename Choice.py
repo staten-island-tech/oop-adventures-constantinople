@@ -61,6 +61,7 @@ class not_enough_money:
         weaponsmith.weapon()
 class we():
     def choices():
+        from shop import silver 
         if "sigil" in user_class:
             print("Hmmmm... Very interesting.... Your class is capable of purchasing a bronze, silver, or mythril sword. ")
             which = input("Which one would you like? 'bronze -> 180' 'silver -> 300' or 'mythril -> 450' ").upper()
@@ -91,7 +92,7 @@ class we():
                 print("Iagnime not bineg albe to selpl..." )
                 we.choices()
         elif "Whisperer" in user_class:
-            print("Hmmmm... Very interesting.... Your class is capable of purchasing a bronze dagger, silver dagger or mythril dagger. ")
+            print("Hmmmm... Very interesting.... Your class is capable of purchasing a bronze dagger, silver dagger or rapier. ")
             which = input("Which one would you like? 'bronze' -> 100 'silver' -> 200  or 'rapier' -> 575 ").upper()
             if which == "BRONZE":
                 new = silver - 100
@@ -205,6 +206,7 @@ class weaponsmith():
 
 weaponsmith.weapon()
 
+<<<<<<< HEAD
 if "faceless" in user_class:
     if "bronze_dagger" in user_weapon:
         import weapons
@@ -214,3 +216,62 @@ if "faceless" in user_class:
         ask = input('Would you like to kill again?').upper
         if ask == 'YES':
             pass
+=======
+
+class grinding():
+    def level_farm():
+        
+        if "sigil" in user_class:
+            if "bronze_sword" in user_class:
+                from weapons import bronze_sword
+
+            elif "silver_sword" in user_class:
+                from weapons import silver_sword
+
+            elif "mythril_sword" in user_class:
+                from weapons import mythril_sword
+
+        elif "whisperer" in user_class:
+            if "bronze_dagger" in user_weapon:
+                from weapons import bronze_Dagger
+
+            elif "silver_dagger" in user_weapon:
+                from weapons import silver_Dagger
+
+            elif "rapier" in user_weapon:
+                from weapons import rapier
+            
+        elif "faceless" in user_class:
+            if "bronze_dagger" in user_weapon:
+                from weapons import bronze_Dagger
+                jk = po.Attack(B, bronze_Dagger)
+                replay1.replay(jk)
+            elif "silver_dagger" in user_weapon:
+                from weapons import silver_Dagger
+                jk = po.Attack(B, silver_Dagger)
+                replay1.replay(jk)
+            elif "mythril_dagger" in user_weapon:
+                from weapons import mythril_Dagger
+                jk = po.Attack(B, mythril_Dagger)
+                replay1.replay(jk)
+        elif "oni" in user_class:
+            if "cestus" in user_weapon:
+                from weapons import fists
+            else:
+                print("something broke")
+        elif "chef" in user_class:
+            if "bronze_pan" in user_weapon:
+                from weapons import bronze_Pan
+
+            elif "silver_pan" in user_weapon:
+                from weapons import silver_Pan
+
+            elif "mythril_pan" in user_weapon:
+                from weapons import mythril_Pan
+
+        elif "blacksmith" in user_class:
+            if "hammer" in user_weapon:
+                from weapons import Hammer
+            else: 
+                print("something broke")
+>>>>>>> 5070c3af9e19f4137a7f7aa37aa8a23d8a9e15a2
