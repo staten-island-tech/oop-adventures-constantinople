@@ -62,6 +62,7 @@ class not_enough_money:
         weaponsmith.weapon()
 class we():
     def choices():
+        from shop import silver 
         if "sigil" in user_class:
             print("Hmmmm... Very interesting.... Your class is capable of purchasing a bronze, silver, or mythril sword. ")
             which = input("Which one would you like? 'bronze -> 180' 'silver -> 300' or 'mythril -> 450' ").upper()
