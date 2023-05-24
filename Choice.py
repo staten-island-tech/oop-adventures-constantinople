@@ -4,8 +4,7 @@ import Chaotic
 from Chaotic import *
 import Neutral
 from Neutral import *
-import base_file
-from base_file import replay1
+
 user_class = []
 user_weapon = []
 
@@ -210,6 +209,8 @@ if "faceless" in user_class:
     if "bronze_dagger" in user_weapon:
         import weapons
         from weapons import bronze_Dagger
-        jk = po.Attack(B, bronze_Dagger)
-        replay1.replay(jk)
-        
+        jk = po.Attack(B,bronze_Dagger)
+        jk
+        ask = input('Would you like to kill again?').upper
+        if ask == 'YES':
+            pass

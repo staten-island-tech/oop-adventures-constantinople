@@ -47,16 +47,16 @@ class Enemy1:
 B = Enemy1(160 ,30)
 
 class replay1():
-    def replay(x):
-       l = input('Would you like to fight ').upper()
-       if l == 'YES':
-            x.Attack()
-            lol = input('Would you like to attack again? ').upper()
-            while lol == 'YES':
-                B.HP = 160
-                x.Attack()
-                lol = input('Would you like to go again ').upper()
-                if lol != 'YES':
-                    print('You dont attack')
+    def replay(x,y):
+        l = input('Would you like to fight ').upper()
+        if l == 'YES':
+            x
+            ask = input("Attack another enemy?").upper()
+            while ask == 'YES':
+                y.HP = 160
+                x
+                ask
+                if ask != 'YES':
+                    print('wduowhudhwauhdwauhdwa')
                     break
 

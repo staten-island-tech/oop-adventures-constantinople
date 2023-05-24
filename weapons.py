@@ -16,3 +16,4 @@ bronze_Hammer = int(8)
 silver_Hammer = int(10)
 mythril_Hammer = int(13)
 
+
