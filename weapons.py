@@ -1,11 +1,3 @@
-import Choice
-from Choice import user_weapon , user_class
-import Chaotic
-from Chaotic import po
-
-
-user_class = po
-
 
 bronze_sword = int(9)
 silver_sword = int(10)
@@ -24,9 +16,3 @@ bronze_Hammer = int(8)
 silver_Hammer = int(10)
 mythril_Hammer = int(13)
 
-""" for weapon in user_weapon:
-    if weapon == ' bronze_sword': """
-user_class.Weapon = bronze_sword
-
-
-po.Attack(B , user_class.Weapon)
