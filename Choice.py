@@ -69,6 +69,7 @@ class we():
                 new = silver
                 if new >= 180:
                     new = new - 180
+                    user_weapon.clear()
                     user_weapon.append("bronze_sword")
                     print(f"You have {new} silver left." )
                     return
@@ -79,6 +80,7 @@ class we():
                 if new < 0:
                     not_enough_money.bruh()
                 else:
+                    user_weapon.clear()
                     user_weapon.append("silver_sword")
                     print(f"You have {new} silver left." )
             elif which == "MYTHRIL":
@@ -86,6 +88,7 @@ class we():
                 if new < 0:
                     not_enough_money.bruh()
                 else:
+                    user_weapon.clear()
                     user_weapon.append("mythril_sword")
                     print(f"You have {new} silver left." )
             else:
@@ -99,6 +102,7 @@ class we():
                 if new < 0:
                     not_enough_money.bruh()
                 else:
+                    user_weapon.clear()
                     user_weapon.append("bronze_dagger")
                     print(f"You have {new} silver left." )
             elif which == "SILVER":
@@ -106,6 +110,7 @@ class we():
                 if new < 0:
                     not_enough_money.bruh()
                 else:
+                    user_weapon.clear()
                     user_weapon.append("silver_dagger")
                     print(f"You have {new} silver left." )
             elif which == "RAPIER":
@@ -113,6 +118,7 @@ class we():
                 if new < 0:
                     not_enough_money.bruh()
                 else:
+                    user_weapon.clear()
                     user_weapon.append("rapier")
                     print(f"You have {new} silver left." )
             else:
@@ -126,6 +132,7 @@ class we():
                 if new < 0:
                     not_enough_money.bruh()
                 else:
+                    user_weapon.clear()
                     user_weapon.append("cestus")
                     print(f"You have {new} silver left." )
             else:
@@ -139,6 +146,7 @@ class we():
                 if new < 0:
                     not_enough_money.bruh()
                 else:
+                    user_weapon.clear()
                     user_weapon.append("bronze_dagger")
                     print(f"You have {new} silver left." )
             elif which == "SILVER":
@@ -146,6 +154,7 @@ class we():
                 if new < 0:
                     not_enough_money.bruh()
                 else:
+                    user_weapon.clear()
                     user_weapon.append("silver_dagger")
                     print(f"You have {new} silver left." )
             elif which == "MYTHRIL":
@@ -153,6 +162,7 @@ class we():
                 if new < 0:
                     not_enough_money.bruh()
                 else:
+                    user_weapon.clear()
                     user_weapon.append("mythril_dagger")
                     print(f"You have {new} silver left." )
             else:
@@ -166,6 +176,7 @@ class we():
                 if new < 0:
                     not_enough_money.bruh()
                 else:
+                    user_weapon.clear()
                     user_weapon.append("bronze_pan")
                     print(f"You have {new} silver left." )
             elif which == "SILVER_PAN":
@@ -173,6 +184,7 @@ class we():
                 if new < 0:
                     not_enough_money.bruh()
                 else:
+                    user_weapon.clear()
                     user_weapon.append("silver_pan")
                     print(f"You have {new} silver left." )
             elif which == "MYTHRIL_PAN":
@@ -180,6 +192,7 @@ class we():
                 if new < 0:
                     not_enough_money.bruh()
                 else:
+                    user_weapon.clear()
                     user_weapon.append("mythril_pan")
                     print(f"You have {new} silver left." )
             else:
@@ -187,6 +200,7 @@ class we():
                 we.choices()
         elif y in user_class:
             print("A blacksmith? Just like me! Here, take this hammer free of charge!! ")
+            user_weapon.clear()
             user_weapon.append("hammer")
             new = silver - 0 
             print(f"You still have {new} silver. LOL ")
@@ -206,21 +220,17 @@ class weaponsmith():
 
 weaponsmith.weapon()
 
-<<<<<<< HEAD
-if "faceless" in user_class:
-    if "bronze_dagger" in user_weapon:
-        import weapons
-        from weapons import bronze_Dagger
-        jk = po.Attack(B,bronze_Dagger)
-        jk
-        ask = input('Would you like to kill again?').upper
-        if ask == 'YES':
-            pass
-=======
+
 
 class grinding():
+    def rewind_time():
+        please_no = input("Would you like to shop again? If you say yes and buy a new item, your old item will be sold and you will obtain the new one that you choose. If you say no you will re-locate to the z'scoom pit to progress. ").upper()
+        if please_no == "YES":
+            weaponsmith.weapon()
+        else:
+            grinding.level_farm()
     def level_farm():
-        
+        print("You exit the village and are approached by a zombie scroom! ")
         if "sigil" in user_class:
             if "bronze_sword" in user_class:
                 from weapons import bronze_sword
@@ -240,25 +250,26 @@ class grinding():
 
             elif "rapier" in user_weapon:
                 from weapons import rapier
-            
+
         elif "faceless" in user_class:
             if "bronze_dagger" in user_weapon:
                 from weapons import bronze_Dagger
                 jk = po.Attack(B, bronze_Dagger)
-                replay1.replay(jk)
+
             elif "silver_dagger" in user_weapon:
                 from weapons import silver_Dagger
                 jk = po.Attack(B, silver_Dagger)
-                replay1.replay(jk)
+
             elif "mythril_dagger" in user_weapon:
                 from weapons import mythril_Dagger
                 jk = po.Attack(B, mythril_Dagger)
-                replay1.replay(jk)
+
         elif "oni" in user_class:
             if "cestus" in user_weapon:
                 from weapons import fists
             else:
                 print("something broke")
+
         elif "chef" in user_class:
             if "bronze_pan" in user_weapon:
                 from weapons import bronze_Pan
@@ -274,4 +285,5 @@ class grinding():
                 from weapons import Hammer
             else: 
                 print("something broke")
->>>>>>> 5070c3af9e19f4137a7f7aa37aa8a23d8a9e15a2
+
+grinding.rewind_time()
