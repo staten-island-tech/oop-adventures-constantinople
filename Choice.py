@@ -227,6 +227,7 @@ class grinding():
         please_no = input("Would you like to shop again? If you say yes and buy a new item, your old item will be sold and you will obtain the new one that you choose. If you say no you will re-locate to the z'scoom pit to progress. ").upper()
         if please_no == "YES":
             weaponsmith.weapon()
+            grinding.level_farm()
         else:
             grinding.level_farm()
     def level_farm():
@@ -285,5 +286,3 @@ class grinding():
                 from weapons import Hammer
             else: 
                 print("something broke")
-
-grinding.rewind_time()
