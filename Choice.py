@@ -286,3 +286,4 @@ class grinding():
                 from weapons import Hammer
             else: 
                 print("something broke")
+grinding.rewind_time()
