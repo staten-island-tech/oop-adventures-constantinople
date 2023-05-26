@@ -1,4 +1,11 @@
 import random
+import random
+import sys, time
+def sprint(str):
+    for c in str  + '\n':
+        sys.stdout.write(c)
+        sys.stdout.flush()
+        time.sleep(3./250)
 inventory2 = []
 class castle_loot():
     def loot():
@@ -11,39 +18,41 @@ class castle_loot():
         while would == "YES":
             x = random.choice(trinkets)
             if x in goblet['chance']:
-                print("You got a goblet")
+                sprint("You got a goblet")
                 inventory2.append('Goblet')
                 would2 = input("Would you like to continue looting? ").upper()
                 if would2 == "YES":
                     would = "YES"
                 else:
-                    print(f"Here is your inventory : {inventory2}")
+                    sprint(f"Here is your inventory : {inventory2}")
                     break
             elif x in crown['chance']:
-                print("You got a crown")
+                sprint("You got a crown")
                 inventory2.append('Crown')
                 would2 = input("Would you like to continue looting? ").upper()
                 if would2 == "YES":
                     would ="YES"
                 else:
-                    print(f"Here is your inventory : {inventory2}")
+                    sprint(f"Here is your inventory : {inventory2}")
                     break
             elif x in amulet['chance']:
-                print("You got an amulet")
+                sprint("You got an amulet")
                 inventory2.append('Amulet')
                 would2 = input("Would you like to continue looting? ").upper()
                 if would2 == "YES":
                     would ="YES"
                 else:
-                    print(f"Here is your inventory : {inventory2}")
+                    sprint(f"Here is your inventory : {inventory2}")
                     break
             elif x in nothing['chance']:
-                print("You got nothing")
+                sprint("You got nothing")
                 would2 = input("Would you like to continue looting? ").upper()
                 if would2 == "YES":
                     would = "YES"
                 else:
-                    print(f"Here is your inventory : {inventory2}")
+                    sprint(f"Here is your inventory : {inventory2}")
                     break
         else:
-            return
+            sprint("You MUST loot to coninue... ")
+            castle_loot.loot()
+

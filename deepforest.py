@@ -1,4 +1,10 @@
 import random
+import sys, time
+def sprint(str):
+    for c in str  + '\n':
+        sys.stdout.write(c)
+        sys.stdout.flush()
+        time.sleep(3./250)
 inventory3 = []
 class deep_loot():
     def loot():
@@ -10,31 +16,31 @@ class deep_loot():
         while would == "YES":
             x = random.choice(trinkets)
             if x in goblet['chance']:
-                print("You got a goblet")
+                sprint("You got a goblet")
                 inventory3.append("Goblet")
                 would2 = input("Would you like to continue looting? ").upper()
                 if would2 == "YES":
                     would = "YES"
                 else:
-                    print(f"Here is your inventory : {inventory3}")
+                    sprint(f"Here is your inventory : {inventory3}")
                     break
             elif x in ring['chance']:
-                print("You got a ring")
+                sprint("You got a ring")
                 inventory3.append("Ring")
                 would2 = input("Would you like to continue looting? ").upper()
                 if would2 == "YES":
                     would ="YES"
                 else:
-                    print(f"Here is your inventory : {inventory3}")
+                    sprint(f"Here is your inventory : {inventory3}")
                     break
             elif x in nothing:
-                print("You got nothing")
+                sprint("You got nothing")
                 would2 = input("Would you like to continue looting? ").upper()
                 if would2 == "YES":
                     would = "YES"
                 else:
-                    print(f"Here is your inventory : {inventory3}")
+                    sprint(f"Here is your inventory : {inventory3}")
                     break
         else:
-            print("You MUST LOOT to coninue...")
+            sprint("You MUST LOOT to coninue...")
             deep_loot.loot()
