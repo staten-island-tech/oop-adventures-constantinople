@@ -1,4 +1,11 @@
 import random
+import random
+import sys, time
+def sprint(str):
+    for c in str  + '\n':
+        sys.stdout.write(c)
+        sys.stdout.flush()
+        time.sleep(3./250)
 inventory1 = []
 class cove_loot():
     def loot():
@@ -11,42 +18,42 @@ class cove_loot():
         while would == "YES":
             x = random.choice(trinkets)
             if x in pearl['chance']:
-                print("You got a pearl")
+                sprint("You got a pearl")
                 inventory1.append('Pearl')
                 would2 = input("Would you like to continue looting? ").upper()
                 if would2 == "YES":
                     would = "YES"
                 else:
-                    print(f"Here is your inventory : {inventory1}")
+                    sprint(f"Here is your inventory : {inventory1}")
                     break
             elif x in spell_book['chance']:
-                print("You got a spellbook")
+                sprint("You got a spellbook")
                 inventory1.append('Spellbook')
                 would2 = input("Would you like to continue looting? ").upper()
                 if would2 == "YES":
                     would ="YES"
                 else:
-                    print(f"Here is your inventory : {inventory1}")
+                    sprint(f"Here is your inventory : {inventory1}")
                     break
             elif x in emerald['chance']:
-                print("You got an emerald")
+                sprint("You got an emerald")
                 inventory1.append('Emerald')
                 would2 = input("Would you like to continue looting? ").upper()
                 if would2 == "YES":
                     would = "YES"
                 else:
-                    print(f"Here is your inventory : {inventory1}")
+                    sprint(f"Here is your inventory : {inventory1}")
                     break
             elif x in nothing['chance']:
-                print("You got nothing")
+                sprint("You got nothing")
                 would2 = input("Would you like to continue looting? ").upper()
                 if would2 == "YES":
                     would = "YES"
                 else:
-                    print(f"Here is your inventory : {inventory1}")
+                    sprint(f"Here is your inventory : {inventory1}")
                     break
         else:
-            print("You MUST loot to coninue... ")
+            sprint("You MUST loot to coninue... ")
             cove_loot.loot()
 
 
