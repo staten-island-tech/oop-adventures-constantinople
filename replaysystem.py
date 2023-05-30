@@ -1,10 +1,10 @@
-import Chaotic
-from Chaotic import po
-import base_file
-from base_file import B
-import weapons
-from weapons import mythril_sword
 
+import sys, time
+def sprint(str):
+    for c in str  + '\n':
+        sys.stdout.write(c)
+        sys.stdout.flush()
+        time.sleep(3./250)
 
 class replay1():
     def replay(x,y,z):
@@ -15,11 +15,9 @@ class replay1():
             y.HP = int(160)
             x.Attack(y,z)
             ask = input('Another one enemy approachs. Attack or run?').upper()
-""" 
-replay1.replay(po,B, mythril_sword) """
+        if ask == 'RUN':
+             sprint("grraH, THE ZOMBIE SCROOM EATS YOU AND YOU DIE")
 
 
-""" 
-class leveling():
-    def something():
-        while  """
+
+
