@@ -5,6 +5,8 @@ import Chaotic
 from Chaotic import *
 import Neutral
 from Neutral import *
+import replaysystem
+from replaysystem import *
 
 user_class = []
 user_weapon = []
@@ -241,29 +243,23 @@ class grinding():
         if "sigil" in user_class:
             if "bronze_sword" in user_class:
                 from weapons import bronze_sword
-                br = A.Attack(B, bronze_sword)
+                replay1.replay(sigil_Knight, B , bronze_sword)
 
             elif "silver_sword" in user_class:
                 from weapons import silver_sword
-                br = A.Attack(B, silver_sword)
 
             elif "mythril_sword" in user_class:
                 from weapons import mythril_sword
-                br = A.Attack(B, mythril_sword)
 
         elif "whisperer" in user_class:
-
             if "bronze_dagger" in user_weapon:
                 from weapons import bronze_Dagger
-                uh = C.Attack(B, bronze_Dagger)
 
             elif "silver_dagger" in user_weapon:
                 from weapons import silver_Dagger
-                uh = C.Attack(B, silver_Dagger)
 
             elif "rapier" in user_weapon:
                 from weapons import rapier
-                uh = C.Attack(B, rapier)
 
         elif "faceless" in user_class:
             if "bronze_dagger" in user_weapon:
@@ -281,28 +277,22 @@ class grinding():
         elif "oni" in user_class:
             if "cestus" in user_weapon:
                 from weapons import fists
-                gr = op.Attack(B, fists)
-                
             else:
                 print("something broke")
 
         elif "chef" in user_class:
             if "bronze_pan" in user_weapon:
                 from weapons import bronze_Pan
-                ah = g.Attack(B, bronze_Pan)
 
             elif "silver_pan" in user_weapon:
                 from weapons import silver_Pan
-                ah = g.Attack(B, silver_Pan)
 
             elif "mythril_pan" in user_weapon:
                 from weapons import mythril_Pan
-                ah = g.Attack(B, mythril_Pan)
 
         elif "blacksmith" in user_class:
             if "hammer" in user_weapon:
                 from weapons import Hammer
-                t = y.Attack(B, Hammer)
             else: 
                 print("something broke")
 grinding.rewind_time()

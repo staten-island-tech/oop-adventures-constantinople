@@ -3,24 +3,24 @@ from Chaotic import po
 import base_file
 from base_file import B
 import weapons
-from weapons import bronze_Dagger
+from weapons import mythril_sword
 
 
-
-class replay1(x):
-    def replay(self,x,y):
+class replay1():
+    def replay(x,y):
         print("before function")
         y.HP = int(160)
-        
+        x.Attack(y,mythril_sword)
         ask = input('Another one enemy approachs. Attack or run?').upper()
-        if ask == 'ATTACK':
+        while ask == 'ATTACK':
+            y.HP = int(160)
             print('test1')
-            x
-            print('not working')
-test1 = replay1(po.Attack)           
-            
-    
-test1.replay("test",B)
+            x.Attack(y,mythril_sword)
+            print('test2')
+            ask = input('Another one enemy approachs. Attack or run?').upper()
+replay1.replay(po,B)
+
+
 
 """ 
 
