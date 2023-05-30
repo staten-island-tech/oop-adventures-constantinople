@@ -244,55 +244,56 @@ class grinding():
             if "bronze_sword" in user_class:
                 from weapons import bronze_sword
                 replay1.replay(sigil_Knight, B , bronze_sword)
-
             elif "silver_sword" in user_class:
                 from weapons import silver_sword
-
+                replay1.replay(sigil_Knight, B , silver_sword)
             elif "mythril_sword" in user_class:
                 from weapons import mythril_sword
-
+                replay1.replay(sigil_Knight, B , mythril_sword)
         elif "whisperer" in user_class:
             if "bronze_dagger" in user_weapon:
                 from weapons import bronze_Dagger
-
+                replay1.replay(Whisperer, B , bronze_Dagger)
             elif "silver_dagger" in user_weapon:
                 from weapons import silver_Dagger
-
+                replay1.replay(Whisperer, B , silver_Dagger)
             elif "rapier" in user_weapon:
                 from weapons import rapier
-
+                replay1.replay(Whisperer, B , rapier)
         elif "faceless" in user_class:
             if "bronze_dagger" in user_weapon:
                 from weapons import bronze_Dagger
                 jk = po.Attack(B, bronze_Dagger)
-
+                replay1.replay(Faceless, B , bronze_Dagger)
             elif "silver_dagger" in user_weapon:
                 from weapons import silver_Dagger
                 jk = po.Attack(B, silver_Dagger)
-
+                replay1.replay(Faceless, B , silver_Dagger)
             elif "mythril_dagger" in user_weapon:
                 from weapons import mythril_Dagger
                 jk = po.Attack(B, mythril_Dagger)
-
+                replay1.replay(Faceless, B , mythril_Dagger)
         elif "oni" in user_class:
             if "cestus" in user_weapon:
                 from weapons import fists
+                replay1.replay(oni, B , fists)
             else:
                 print("something broke")
 
         elif "chef" in user_class:
             if "bronze_pan" in user_weapon:
                 from weapons import bronze_Pan
-
+                replay1.replay(chef, B , bronze_Pan)
             elif "silver_pan" in user_weapon:
                 from weapons import silver_Pan
-
+                replay1.replay(chef, B , silver_Pan)
             elif "mythril_pan" in user_weapon:
                 from weapons import mythril_Pan
-
+                replay1.replay(chef, B , mythril_Pan)
         elif "blacksmith" in user_class:
             if "hammer" in user_weapon:
                 from weapons import Hammer
+                replay1.replay(BlackSmith, B , Hammer)
             else: 
                 print("something broke")
 grinding.rewind_time()
