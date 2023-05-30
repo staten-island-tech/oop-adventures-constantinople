@@ -132,7 +132,7 @@ class we():
             else:
                 sprint("Iagnime not bineg albe to selpl..." )
                 we.choices()
-        elif op in user_class:
+        elif "oni" in user_class:
             sprint("Ah HA, I have nothing in store for you, except for A CESTUS. ")
             which = input("What would you like to buy? 'cestus' -> 600 ").upper()
             if which == "CESTUS":
@@ -279,7 +279,6 @@ class grinding():
                 replay1.replay(oni, B , fists)
             else:
                 print("something broke")
-
         elif "chef" in user_class:
             if "bronze_pan" in user_weapon:
                 from weapons import bronze_Pan
