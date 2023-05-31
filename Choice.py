@@ -263,15 +263,12 @@ class grinding():
         elif "faceless" in user_class:
             if "bronze_dagger" in user_weapon:
                 from weapons import bronze_Dagger
-                jk = po.Attack(B, bronze_Dagger)
                 replay1.replay(Faceless, B , bronze_Dagger)
             elif "silver_dagger" in user_weapon:
                 from weapons import silver_Dagger
-                jk = po.Attack(B, silver_Dagger)
                 replay1.replay(Faceless, B , silver_Dagger)
             elif "mythril_dagger" in user_weapon:
                 from weapons import mythril_Dagger
-                jk = po.Attack(B, mythril_Dagger)
                 replay1.replay(Faceless, B , mythril_Dagger)
         elif "oni" in user_class:
             if "cestus" in user_weapon:

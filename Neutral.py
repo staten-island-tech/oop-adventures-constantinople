@@ -7,7 +7,7 @@ from base_file import Base_class, B
 class chef(Base_class):
     def __init__(self, HP, Weapon, XP):
         super().__init__(HP, Weapon, XP)
-    def Attack(self,x,y):
+    def Attack(x,y):
         while x.HP > 0:
             if x.HP < 0:
                 break  
@@ -35,7 +35,7 @@ g = chef(100, 'pan' , 0)
 class BlackSmith(Base_class):
     def __init__(self, HP, Weapon, XP):
         super().__init__(HP, Weapon, XP)
-    def Attack(self,x,y):
+    def Attack(x,y):
         while x.HP > 0:
             if x.HP < 0:
                 break  

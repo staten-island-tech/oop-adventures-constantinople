@@ -8,7 +8,7 @@ from weapons import mythril_Dagger
 class Faceless(Base_class):
     def __init__(self, HP, Weapon, XP):
         super().__init__(HP, Weapon, XP)
-    def Attack(self,x,y):
+    def Attack(x,y):
         while x.HP > 0:
             if x.HP < 0:
                 break  
@@ -39,7 +39,7 @@ po = Faceless(105 , 'something' , 0)
 class oni(Base_class):
     def __init__(self, HP, Weapon, XP):
         super().__init__(HP, Weapon, XP)
-    def Attack(self,x,y):
+    def Attack(x,y):
         while x.HP > 0:
             if x.HP < 0:
                 break  

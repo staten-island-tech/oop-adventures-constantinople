@@ -5,7 +5,7 @@ from base_file import Base_class, B
 class sigil_Knight(Base_class):
     def __init__(self, HP, Weapon, XP):
         super().__init__(HP, Weapon, XP)
-    def Attack(self,x,y):
+    def Attack(x,y):
         while x.HP > 0:
             if x.HP < 0:
                 break  
@@ -32,7 +32,7 @@ class sigil_Knight(Base_class):
 class Whisperer(Base_class):
     def __init__(self, HP, Weapon, XP):
         super().__init__(HP, Weapon, XP)             
-    def Attack(self,x,y):
+    def Attack(x,y):
         while x.HP > 0:
             if x.HP < 0:
                 break  
