@@ -14,15 +14,17 @@ class sigil_Knight(Base_class):
                 Number_of_hits = random.randint(0 , 4)
                 Damage = y
                 Total_DMG = Number_of_hits*Damage
+                if Total_DMG == 0:
+                    print('You Have seemed to miss the enemy...... How could you let this happen')
                 Remaing_enemy_HP = x.HP - Total_DMG
                 if Remaing_enemy_HP < 0 or Remaing_enemy_HP == 0:
                     print('You defeated this enemy')
-                    Added_XP = x.XP + A.XP
-                    A.XP = Added_XP
+                    Added_XP = x.XP + C.XP
+                    C.XP = Added_XP
                     print('You now have,' , Added_XP , 'XP')
                     break
                 x.HP = Remaing_enemy_HP
-                print(Remaing_enemy_HP)
+                print(f"The enemy now has {Remaing_enemy_HP} HP left")
             if OL != 'YES':
                 print('You dont attack')
                 break    
@@ -39,15 +41,17 @@ class Whisperer(Base_class):
                 Number_of_hits = random.randint(0 , 4)
                 Damage = y
                 Total_DMG = Number_of_hits*Damage
+                if Total_DMG == 0:
+                    print('You Have seemed to miss the enemy...... How could you let this happen')
                 Remaing_enemy_HP = x.HP - Total_DMG
                 if Remaing_enemy_HP < 0 or Remaing_enemy_HP == 0:
                     print('You defeated this enemy')
-                    Added_XP = x.XP + C.XP
-                    C.XP = Added_XP
+                    Added_XP = x.XP + A.XP
+                    A.XP = Added_XP
                     print('You now have,' , Added_XP , 'XP')
                     break
                 x.HP = Remaing_enemy_HP
-                print(Remaing_enemy_HP)
+                print(f"The enemy now has {Remaing_enemy_HP} HP left")
             if OL != 'YES':
                 print('You dont attack')
                 break    

@@ -1,7 +1,8 @@
 import random
 import base_file
 from base_file import Base_class, B
-
+import weapons
+from weapons import mythril_Dagger
 
 
 class Faceless(Base_class):
@@ -16,6 +17,8 @@ class Faceless(Base_class):
                 Number_of_hits = random.randint(0 , 4)
                 Damage = y
                 Total_DMG = Number_of_hits*Damage
+                if Total_DMG == 0:
+                    print('You Have seemed to miss the enemy...... How could you let this happen')
                 Remaing_enemy_HP = x.HP - Total_DMG
                 if Remaing_enemy_HP < 0 or Remaing_enemy_HP == 0:
                     print('You defeated this enemy')
@@ -24,7 +27,7 @@ class Faceless(Base_class):
                     print('You now have,' , Added_XP , 'XP')
                     break
                 x.HP = Remaing_enemy_HP
-                print(Remaing_enemy_HP)
+                print(f"The enemy now has {Remaing_enemy_HP} HP left")
             if OL != 'YES':
                 print('You dont attack')
                 break    
@@ -45,15 +48,17 @@ class oni(Base_class):
                 Number_of_hits = random.randint(0 , 4)
                 Damage = y
                 Total_DMG = Number_of_hits*Damage
+                if Total_DMG == 0:
+                    print('You Have seemed to miss the enemy...... How could you let this happen')
                 Remaing_enemy_HP = x.HP - Total_DMG
                 if Remaing_enemy_HP < 0 or Remaing_enemy_HP == 0:
                     print('You defeated this enemy')
-                    Added_XP = x.XP + po.XP
-                    po.XP = Added_XP
+                    Added_XP = x.XP + op.XP
+                    op.XP = Added_XP
                     print('You now have,' , Added_XP , 'XP')
                     break
                 x.HP = Remaing_enemy_HP
-                print(Remaing_enemy_HP)
+                print(f"The enemy now has {Remaing_enemy_HP} HP left")
             if OL != 'YES':
                 print('You dont attack')
                 break    
@@ -61,3 +66,4 @@ class oni(Base_class):
 
 op = oni(115 , 'something' , 0)
     
+
