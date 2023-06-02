@@ -176,7 +176,7 @@ class we():
             else:
                 sprint("Iagnime not bineg albe to selpl..." )
                 we.choices()
-        elif g in user_class:
+        elif "chef" in user_class:
             sprint("Ahh, a lovely chef. After you finish you should make me some food sometime. ")
             which = input("What would you like to buy? 'bronze_pan' -> 75 'silver_pan' -> 175 or 'mythril_pan'? -> 275 ").upper()
             if which == "BRONZE_PAN":
@@ -206,7 +206,7 @@ class we():
             else:
                 sprint("Iagnime not bineg albe to selpl..." )
                 we.choices()
-        elif y in user_class:
+        elif "blacksmith" in user_class:
             sprint("A blacksmith? Just like me! Here, take this hammer free of charge!! ")
             user_weapon.clear()
             user_weapon.append("hammer")

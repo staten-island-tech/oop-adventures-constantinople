@@ -49,8 +49,8 @@ class BlackSmith(Base_class):
                 Remaing_enemy_HP = x.HP - Total_DMG
                 if Remaing_enemy_HP < 0 or Remaing_enemy_HP == 0:
                     print('You defeated this enemy')
-                    Added_XP = x.XP + y.XP
-                    y.XP = Added_XP
+                    Added_XP = x.XP + y2.XP
+                    y2.XP = Added_XP
                     print('You now have,' , Added_XP , 'XP')
                     break
                 x.HP = Remaing_enemy_HP
@@ -58,5 +58,5 @@ class BlackSmith(Base_class):
             if OL != 'YES':
                 print('You dont attack')
                 break    
-y = BlackSmith(110 , 'hammer' , 0)
+y2 = BlackSmith(110 , 'hammer' , 0)
 

@@ -12,8 +12,5 @@ mythril_Dagger = int (13)
 bronze_Pan = int(5)
 silver_Pan = int(9)
 mythril_Pan = int(12)
-bronze_Hammer = int(8) 
-silver_Hammer = int(10)
-mythril_Hammer = int(13)
-
+Hammer = int(11)
 

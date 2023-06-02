@@ -28,7 +28,6 @@ class replay1():
                 sprint("You lay down your weapon and die. ")
              else:
                 sprint("grraH, THE ZOMBIE SCROOM EATS YOU AND YOU DIE")
-
-
+       
 
 
