@@ -8,6 +8,7 @@ from Neutral import *
 import replaysystem
 from replaysystem import *
 
+
 user_class = []
 user_weapon = []
 
