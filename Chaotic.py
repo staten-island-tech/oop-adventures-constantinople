@@ -32,6 +32,10 @@ class Faceless(Base_class):
                 print('You dont attack')
                 break    
 
+        
+
+
+
 po = Faceless(105 , 'something' , 0)
 
 

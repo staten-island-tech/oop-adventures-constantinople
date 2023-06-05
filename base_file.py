@@ -8,13 +8,14 @@ class Base_class:
         self.XP = int(XP)
     def info(self):
         print(self.HP , self.Weapon , self.XP)
-    def Boss_Attack1(self , x):
-        damage = int(30)
+    def Boss_Attack1(x,y):
         multiplier = random.randint(0,4)
-        total = damage*multiplier
-        Boss_HP = x.HP - total
+        total = x*multiplier
+        Boss_HP = y.HP - total
         if total > 0:
             print('You have hit the arcane for' , total , 'HP')
+            print('------------------------------')
+            print('Hes now at' , Boss_HP , 'HP')
         elif total == int(0):
             print('You have failed to hit the Arcane')
             return
