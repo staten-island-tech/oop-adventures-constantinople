@@ -1,14 +1,14 @@
 import random
 import base_file
-from base_file import Base_class, B
+from base_file import Base_class, B , Bossattack
 import weapons
 from weapons import mythril_Dagger
 
 
-class Faceless(Base_class):
+class Faceless(base_file , Bossattack):
     def __init__(self, HP, Weapon, XP):
         super().__init__(HP, Weapon, XP)
-    def Attack(x,y):
+    def Attack(x, y):
         while x.HP > 0:
             if x.HP < 0:
                 break  

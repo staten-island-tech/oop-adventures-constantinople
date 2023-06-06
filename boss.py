@@ -40,7 +40,7 @@ class GRAH(Base_class):
         elif Player_HP != 0:
             print('You now have' , Player_HP , 'HP')
 
-GRAH(300, 'Tome' , 185)
+Arcane = GRAH(300, 'Tome' , 185)
 
 
 
