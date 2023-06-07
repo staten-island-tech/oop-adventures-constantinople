@@ -5,7 +5,7 @@ import weapons
 from weapons import mythril_Dagger
 
 
-class Faceless(base_file , Bossattack):
+class Faceless(base_file):
     def __init__(self, HP, Weapon, XP):
         super().__init__(HP, Weapon, XP)
     def Attack(x, y):
@@ -36,9 +36,8 @@ class Faceless(base_file , Bossattack):
 
 
 
-po = Faceless(105 , 'something' , 0)
-
-
+po = Faceless(105 , 'Weapon' , 0)
+po
 
 class oni(Base_class):
     def __init__(self, HP, Weapon, XP):
@@ -69,5 +68,5 @@ class oni(Base_class):
 
 
 op = oni(115 , 'something' , 0)
-    
+
 
