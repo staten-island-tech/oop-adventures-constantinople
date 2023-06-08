@@ -5,7 +5,7 @@ import weapons
 from weapons import mythril_Dagger
 
 
-class Faceless(base_file):
+""" class Faceless(base_file):
     def __init__(self, HP, Weapon, XP):
         super().__init__(HP, Weapon, XP)
     def Attack(x, y):
@@ -30,14 +30,14 @@ class Faceless(base_file):
                 print(f"The enemy now has {Remaing_enemy_HP} HP left")
             if OL != 'YES':
                 print('You dont attack')
-                break    
+                break     """
 
         
 
 
+""" 
+po = Faceless(105 , 'Weapon' , 0) """
 
-po = Faceless(105 , 'Weapon' , 0)
-po
 
 class oni(Base_class):
     def __init__(self, HP, Weapon, XP):

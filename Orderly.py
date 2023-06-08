@@ -62,4 +62,3 @@ C = Whisperer(150 , 'something' , 0)
 
 
 
-

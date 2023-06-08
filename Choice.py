@@ -242,13 +242,13 @@ class grinding():
     def level_farm():
         sprint("You exit the village and are approached by a zombie scroom! ")
         if "sigil" in user_class:
-            if "bronze_sword" in user_class:
+            if "bronze_sword" in user_weapon:
                 from weapons import bronze_sword
                 replay1.replay(sigil_Knight, B , bronze_sword)
-            elif "silver_sword" in user_class:
+            elif "silver_sword" in user_weapon:
                 from weapons import silver_sword
                 replay1.replay(sigil_Knight, B , silver_sword)
-            elif "mythril_sword" in user_class:
+            elif "mythril_sword" in user_weapon:
                 from weapons import mythril_sword
                 replay1.replay(sigil_Knight, B , mythril_sword)
         elif "whisperer" in user_class:
@@ -291,7 +291,8 @@ class grinding():
             if "hammer" in user_weapon:
                 from weapons import Hammer
                 replay1.replay(BlackSmith, B , Hammer)
-            else: 
-                print("something broke")
+            else:
+                print("Something broke")
 grinding.rewind_time()
+
 
